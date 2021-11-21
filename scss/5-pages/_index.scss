@@ -1,0 +1,71 @@
+
+// BANNER PART
+.banner {
+    margin-bottom: 20px;
+
+    .container {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner {
+        .container {
+            padding: 10px;
+        }
+    }
+}
+
+// PRODUCT PART STYLE
+.product {
+    margin-bottom: 100px;
+}
+
+.product-header {
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    border-top: 1px solid $border;
+    border-bottom: 1px solid $border;
+    @include flex__center__between;
+
+    h3 {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    i {
+        cursor: pointer;
+        @include cursor__transition;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.product-card-group {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+
+@media (max-width: 500px) {
+    .product-header {
+        h3 {
+            font-size: 16px;
+        }
+    }
+
+    .product-card-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .product-card-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
