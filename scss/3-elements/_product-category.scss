@@ -1,0 +1,33 @@
+.product-category {
+    text-align: center;
+
+    img {
+        margin-bottom: 10px;
+        @include center__content(150px, 150px, 0px, 50%);
+        box-shadow: $primary-bshadow;
+    }
+
+    h5 {
+        text-transform: capitalize;
+        color: $white;
+        padding: 5px 8px;
+        background: $heading;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 991px) {
+    .product-category {
+        img {
+            @include center__content(100px, 100px, 0px, 50%);
+        }
+
+        h5 {
+            padding: 4px 8px;
+            font-size: 12px;
+        }
+    }
+}

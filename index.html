@@ -26,15 +26,10 @@
     <!--====================================
                 HEADER PART START
     ======================================-->
-    <header class="header">
+    <header class="main-header mb-20">
         <div class="container">
-            <div class="header-content">
-                <a class="header-logo" href="#"><img src="images/logo.png" alt="logo"></a>
-                <a class="header-user" href="#">
-                    <img src="images/user.png" alt="user">
-                    <span>Arif Hos.</span>
-                </a>
-            </div>
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <button class="search-open"><i class="material-icons">search</i></button>
         </div>
     </header>
     <!--====================================
@@ -43,45 +38,9 @@
 
 
     <!--====================================
-                NAVBAR PART START
-    ======================================-->
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-content">
-                <a href="#">
-                    <i class="material-icons">home</i>
-                    <span>home</span>
-                </a>
-                <a href="#">
-                    <i class="material-icons">notifications</i>
-                    <span>alerts</span>
-                    <sup>0</sup>
-                </a>
-                <a href="#">
-                    <i class="material-icons">search</i>
-                    <span>search</span>
-                </a>
-                <a href="#">
-                    <i class="material-icons">shopping_bag</i>
-                    <span>carts</span>
-                    <sup>0</sup>
-                </a>
-                <a href="#">
-                    <i class="material-icons">person</i>
-                    <span>account</span>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <!--====================================
-                NAVBAR PART END
-    ======================================-->
-
-
-    <!--====================================
                 BANNER PART START
     ======================================-->
-    <section class="banner">
+    <section class="banner mb-20">
         <div class="container">
             <div class="banner-slider">
                 <a href="#" class="banner-card">
@@ -122,57 +81,598 @@
     ======================================-->
     <section class="product">
         <div class="container">
-            <div class="product-header">
-                <h3>fast food</h3>
-                <i class="material-icons">expand_more</i>
-            </div>
-            <div class="product-card-group">
-                <div class="product-card">
-                    <div class="product-media">
-                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
-                        <span class="badge">popular</span>
-                        <span class="count">0</span>
-                    </div>
-                    <div class="product-content">
-                        <div class="product-meta">
-                            <i class="material-icons halal">adjust</i>
-                            <h4 class="product-name">Asian Noodle</h4>
-                            <button class="material-icons">favorite</button>
+
+            <div class="product-category-group mb-20">
+                <!-- product header -->
+                <div class="product-category-header mb-20">
+                    <h3>fast food</h3>
+                    <i class="material-icons">expand_more</i>
+                </div>
+
+                <!-- product card -->
+                <div class="product-category-card">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
                         </div>
-                        <h5 class="product-price">$22.00 <del>$25.00</del></h5>
-                        <div class="product-action">
-                            <button class="material-icons">remove</button>
-                            <button class="material-icons">add</button>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <del>$25.00</del></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
                         </div>
                     </div>
                 </div>
-                <div class="product-card">
-                    <div class="product-media">
-                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
-                        <span class="badge">popular</span>
-                        <span class="count">0</span>
+            </div>
+
+            <!-- product category -->
+            <ul class="product-category-slider mb-20">
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/01.jpg" alt="product">
+                        <h5>chinees</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/02.jpg" alt="product">
+                        <h5>fastfood</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/03.jpg" alt="product">
+                        <h5>drinks</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/01.jpg" alt="product">
+                        <h5>lunch</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/01.jpg" alt="product">
+                        <h5>dinner</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="product-category">
+                        <img src="images/product/01.jpg" alt="product">
+                        <h5>seafood</h5>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="product-category-group mb-20">
+                <!-- product header -->
+                <div class="product-category-header mb-20">
+                    <h3>thai food</h3>
+                    <i class="material-icons">expand_more</i>
+                </div>
+
+                <!-- product card -->
+                <div class="product-category-card">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <del>$25.00</del></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-content">
-                        <div class="product-meta">
-                            <i class="material-icons halal">adjust</i>
-                            <h4 class="product-name">Asian Noodle</h4>
-                            <button class="material-icons">favorite</button>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
                         </div>
-                        <h5 class="product-price">$22.00 <span>for two</span></h5>
-                        <div class="product-action">
-                            <button class="material-icons">remove</button>
-                            <button class="material-icons">add</button>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
                         </div>
-                        <button class="product-customize">customizable</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="product-category-group mb-20">
+                <!-- product header -->
+                <div class="product-category-header mb-20">
+                    <h3>chinees food</h3>
+                    <i class="material-icons">expand_more</i>
+                </div>
+
+                <!-- product card -->
+                <div class="product-category-card">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <del>$25.00</del></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                            <span class="badge">popular</span>
+                            <span class="count">0</span>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-meta">
+                                <i class="material-icons halal">adjust</i>
+                                <h4 class="product-name">Asian Noodle</h4>
+                                <button class="material-icons">favorite</button>
+                            </div>
+                            <h5 class="product-price">$22.00 <span>for two</span></h5>
+                            <div class="product-action customize-open">
+                                <button class="material-icons">remove</button>
+                                <button class="material-icons">add</button>
+                            </div>
+                            <button class="product-customize">customizable</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!--====================================
                 PRODUCT PART END
     ======================================-->
 
+
+    <!--====================================
+                NAVBAR PART START
+    ======================================-->
+    <nav class="icon-navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#">
+                    <i class="material-icons">home</i>
+                    <span>home</span>
+                </a>
+                <a href="#" class="alert-open">
+                    <i class="material-icons">notifications</i>
+                    <span>alerts</span>
+                    <sup>0</sup>
+                </a>
+                <a href="#" class="favor-open">
+                    <i class="material-icons">favorite</i>
+                    <span>favorites</span>
+                    <sup>0</sup>
+                </a>
+                <a href="#">
+                    <i class="material-icons">shopping_bag</i>
+                    <span>carts</span>
+                    <sup>0</sup>
+                </a>
+                <a href="#">
+                    <i class="material-icons">person</i>
+                    <span>account</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--====================================
+                NAVBAR PART END
+    ======================================-->
+
+
+    <!--====================================
+              INTERNAL LAYOUT START
+    ======================================-->
+    <!-- search layout -->
+    <div class="internal-layout search">
+        <div class="container">
+            <div class="internal-header">
+                <a class="search-close" href="#"><i class="material-icons">arrow_back_ios</i></a>
+                <input type="text" placeholder="Search for items">
+                <button type="submit"><i class="material-icons">search</i></button>
+            </div>
+            <div class="internal-blank">
+                <i class="material-icons">restaurant_menu</i>
+                <span>no search history</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- notification layout -->
+    <div class="internal-layout alert">
+        <div class="container">
+            <div class="internal-header">
+                <a class="alert-close" href="#"><i class="material-icons">arrow_back_ios</i></a>
+                <h3>alerts</h3>
+            </div>
+            <div class="internal-blank">
+                <i class="material-icons">notifications</i>
+                <span>no new alert</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- favorite layout -->
+    <div class="internal-layout favor">
+        <div class="container">
+            <div class="internal-header">
+                <a class="favor-close" href="#"><i class="material-icons">arrow_back_ios</i></a>
+                <h3>favourite</h3>
+            </div>
+            <div class="product-category-card internal-scroll">
+                <div class="product-card">
+                    <div class="product-media">
+                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                        <span class="badge">popular</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <i class="material-icons halal">adjust</i>
+                            <h4 class="product-name">Asian Noodle</h4>
+                            <button class="material-icons active">favorite</button>
+                        </div>
+                        <h5 class="product-price">$22.00 <span>for two</span></h5>
+                        <div class="product-action">
+                            <button class="material-icons">remove</button>
+                            <button class="material-icons">add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-media">
+                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                        <span class="badge">popular</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <i class="material-icons halal">adjust</i>
+                            <h4 class="product-name">Asian Noodle</h4>
+                            <button class="material-icons active">favorite</button>
+                        </div>
+                        <h5 class="product-price">$22.00 <span>for two</span></h5>
+                        <div class="product-action">
+                            <button class="material-icons">remove</button>
+                            <button class="material-icons">add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-media">
+                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                        <span class="badge">popular</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <i class="material-icons halal">adjust</i>
+                            <h4 class="product-name">Asian Noodle</h4>
+                            <button class="material-icons active">favorite</button>
+                        </div>
+                        <h5 class="product-price">$22.00 <span>for two</span></h5>
+                        <div class="product-action">
+                            <button class="material-icons">remove</button>
+                            <button class="material-icons">add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-media">
+                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                        <span class="badge">popular</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <i class="material-icons halal">adjust</i>
+                            <h4 class="product-name">Asian Noodle</h4>
+                            <button class="material-icons active">favorite</button>
+                        </div>
+                        <h5 class="product-price">$22.00 <span>for two</span></h5>
+                        <div class="product-action">
+                            <button class="material-icons">remove</button>
+                            <button class="material-icons">add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-media">
+                        <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                        <span class="badge">popular</span>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <i class="material-icons halal">adjust</i>
+                            <h4 class="product-name">Asian Noodle</h4>
+                            <button class="material-icons active">favorite</button>
+                        </div>
+                        <h5 class="product-price">$22.00 <span>for two</span></h5>
+                        <div class="product-action">
+                            <button class="material-icons">remove</button>
+                            <button class="material-icons">add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- customization layout -->
+    <div class="internal-layout customize">
+        <div class="container">
+            <div class="internal-header">
+                <h3>customizations</h3>
+                <a class="customize-close" href="#"><i class="material-icons">close</i></a>
+            </div>
+            <div class="internal-scroll">
+                <ul class="internal-list">
+                    <li><h4>toppings</h4></li>
+                    <li>
+                        <label for="custom1">extra chees <span>$3.00</span></label>
+                        <input type="radio" id="custom1">
+                    </li>
+                    <li>
+                        <label for="custom2">extra pepperoni <span>$2.00</span></label>
+                        <input type="radio" id="custom2">
+                    </li>
+                    <li>
+                        <label for="custom3">extra catchup <span>$1.00</span></label>
+                        <input type="radio" id="custom3">
+                    </li>
+                </ul>
+                <ul class="internal-list">
+                    <li><h4>preparation method</h4></li>
+                    <li>
+                        <label for="custom4">regular</label>
+                        <input type="radio" id="custom4">
+                    </li>
+                    <li>
+                        <label for="custom5">pan based <span>$2.00</span></label>
+                        <input type="radio" id="custom5">
+                    </li>
+                </ul>
+                <ul class="internal-list">
+                    <li><h4>size</h4></li>
+                    <li>
+                        <label for="custom6">small <span>$3.00</span></label>
+                        <input type="radio" id="custom6">
+                    </li>
+                    <li>
+                        <label for="custom7">medium <span>$2.00</span></label>
+                        <input type="radio" id="custom7">
+                    </li>
+                    <li>
+                        <label for="custom8">large <span>$1.00</span></label>
+                        <input type="radio" id="custom8">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--====================================
+              INTERNAL LAYOUT END
+    ======================================-->
 
     <!-- JS VENDOR URL -->
     <script src="vendor/jquery.min.js"></script>

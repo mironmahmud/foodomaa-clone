@@ -67,3 +67,13 @@ body {
         width: 1140px;     
     }
 }
+
+.mb-20 {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+}

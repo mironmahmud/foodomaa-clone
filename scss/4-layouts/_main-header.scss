@@ -1,0 +1,51 @@
+.main-header {
+    background: $white;
+    padding: 12px 0px;
+
+    .container {
+        @include flex__center__between;
+    
+        a {
+            img {
+                width: 120px;
+            }
+        }
+    
+        button {
+            i {
+                @include center__content(40px, 40px, 40px, 50%);
+                background: $body;
+                font-size: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.main-header.sticky {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 991px) {
+    .main-header {
+        .container {
+            a {
+                img {
+                    width: 100px;
+                }
+            }
+    
+            button {
+                i {
+                    @include center__content(35px, 35px, 35px, 50%);
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

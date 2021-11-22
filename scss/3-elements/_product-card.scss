@@ -67,6 +67,10 @@
         color: $arrow;
         cursor: pointer;
     }
+
+    button.active {
+        color: $red;
+    }
 }
 
 .product-meta .halal {
@@ -178,6 +182,10 @@
             font-size: 20px;
             padding: 4px 5px;
         }
+    }
+
+    .product-customize {
+        font-size: 12px;
     }
 }
 

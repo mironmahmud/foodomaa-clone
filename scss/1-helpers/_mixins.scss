@@ -92,3 +92,40 @@
     white-space: nowrap;
     text-transform: capitalize;
 }
+
+// =====================================
+//       CENTER CONTENT STYLE
+//======================================
+@mixin center__content($width, $height, $lineHeight, $radius) {
+    width: $width;
+    height: $height;
+    line-height: $lineHeight;
+    border-radius: $radius;
+    text-align: center;
+}
+
+// =====================================
+//       POSITION TOP LEFT STYLE
+//======================================
+@mixin position__top__left ($position, $top, $left, $width, $height, $zindex) {
+    position: $position;
+    top: $top;
+    left: $left;
+    width: $width;
+    height: $height;
+    z-index: $zindex;
+}
+
+
+// =====================================
+//       POSITION BOTTOM LEFT STYLE
+//======================================
+@mixin position__bottom__left ($position, $bottom, $left, $width, $height, $zindex) {
+    position: $position;
+    top: $bottom;
+    left: $left;
+    width: $width;
+    height: $height;
+    z-index: $zindex;
+}
+
